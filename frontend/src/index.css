@@ -1,0 +1,416 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        @apply home	;
+    }
+}
+.home{
+  background: #3c6562;
+
+}
+.NavColor {
+    background: #00454a;
+    z-index: 121;
+   
+  }
+  .moreInfos{
+    margin-top:1em;
+    padding:1em;    
+  }
+  .info_user_logout{
+    background:#212A31;
+  }
+  table{
+    background:rgba(116,180,203,0.2);
+  }
+  .table_head{
+    background:rgba(116,180,203,0.6);
+    color:rgb(0,0,0,0.6);
+  }
+  .userinfo{
+    background:rgba(116,180,203,0.6);
+  }
+.NavUser{
+  background: linear-gradient(
+    to bottom right,
+    blue,
+    #3B739B,
+    hsla(0, 9%, 7%, 1)
+  );
+  z-index: 121;
+}
+
+.register{
+    background: linear-gradient(
+      black
+      );
+}
+
+  .soutbar{
+    transition:all ease-in-out 0.5s;
+  }
+.homeadmin_div a{
+box-shadow: 0 0 1px   whitesmoke;
+background:rgba(0,255,255,0.4);
+color:rgba(255,255,255,0.5);
+}
+
+.homeadmin_div a:hover{
+    /* box-shadow: 0 0 5px   #B8CBD0; */
+    /* outline:3px solid rgba(0,255,255,0.3); */
+    background:rgba(0,255,255,0.6);
+    transition:ease-in-out all 0.1s;
+    color:rgba(255,255,255,0.9)
+}
+
+.infouser{
+    /* border:1px gray solid; */
+    box-shadow: 0 1px 20px   #B8CBD0;
+}
+/* main{
+    background:black;
+    z-index:33;
+} */
+ .background-zx{
+    width:100%;
+    height:100%;
+    background:black;
+    
+ }
+ .formtoadd input{
+  background:rgba(116,180,203,0.6);
+  color:rgb(0,0,0,0.6);
+ }
+ .formtoadd input::placeholder{
+  color:rgb(0,0,0,0.6); 
+
+}
+.servicemain{
+  diaplay:flex;
+  /* grid-template-columns:4fr 1fr; */
+}
+
+/* buttons */
+.deleteBtn{
+  display:flex;
+  place-items:center;
+  justify-content:center;
+  color:rgb(0, 0, 0);
+  border:3px solid rgba(248, 249, 249,0.3);
+  padding:0 0.9em;
+  border-radius:40px;
+  transition:ease-in-out all 0.2s;
+}
+
+.deleteBtn:hover{
+  /* color:white; */
+  border:3px solid rgba(248, 0, 0,0.6);
+}
+
+.cancelBtn{
+  display:flex;
+  place-items:center;
+  justify-content:center;
+  color:rgb(165, 05, 19);
+  border:3px solid rgba(248, 249, 249,0.3);
+  padding:0 0.9em;
+  border-radius:40px;
+  transition:ease-in-out all 0.2s;
+}
+
+.cancelBtn:hover{
+  color:rgb(165, 05, 19);
+  border:3px solid rgba(248, 0, 0,0.3);
+}
+.editBtn{
+  display:flex;
+  place-items:center;
+  color:rgb(10, 0, 0);
+  border:3px solid rgba(248, 249, 249,0.3);
+  padding:0.2em 0.9em;
+  border-radius:40px;
+  transition:ease-in-out all 0.2s;
+}
+
+.editBtn:hover{
+  border:3px solid rgba(0, 0, 254);
+}
+
+.detailsBtn{
+  display:flex;
+  place-items:center;
+  justify-content:center;
+  color:rgb(211, 84, 0);
+    border:3px solid rgba(248, 249, 249,0.3);
+  padding:0.2em 0.9em;
+  border-radius:40px;
+  transition:ease-in-out all 0.2s;
+}
+
+.detailsBtn:hover{
+  color:rgb(211, 84, 0);
+  border:3px solid rgba(211, 84, 0);
+}
+/*  */
+/* add button */
+.addBtn{
+  color:rgba(240 ,240, 240, 0.8);
+  /* border:3px solid rgb(248, 249, 249); */
+  border:3px solid rgba(248, 249, 249,0.3);
+  font-weight:semibold;
+  padding:0.2em 0.9em;
+  border-radius:40px;
+  transition:ease-in-out all 0.2s;
+}
+.addBtn:hover{
+  /* //background:rgb(165, 105, 250); */
+  border:3px solid rgba(0, 255, 255,0.5);
+  color:rgba(0, 255, 255,0.5);
+
+
+}
+
+.leftMenuBtn{
+  color:rgba(240 ,240, 240, 0.5);
+
+  font-weight:semibold;
+  font-size:13px;
+  border-radius:40px;
+  transition:ease-in-out all 0.2s;
+}
+
+.UserInfoLeftMenu_name{
+  font-size:18px;
+  font-weight:bold;
+}
+.UserInfoLeftMenu_post{
+  font-size:15px;
+  color:whitesmoke;
+}
+.leftMenuBtn:hover{
+
+  color:rgba(0, 255, 255,0.5);
+
+
+}
+/*  */
+/* card_group */
+
+.card_group{
+  background:rgba(255,255,240,0.8);
+  backdrop-filter: blur(2px);
+transition:ease-in-out all 0.2s;
+}
+.card_group:hover{
+  background:whitesmoke;
+}
+/*  */
+
+/* divteams */
+.divteams{
+  /* background:rgba(0,255,255,0.3); */
+
+}
+
+/*  */
+
+/* cover main   apply it for all main content  */
+
+.cover_main{
+  /* background:rgba(0,0,0,0.6); */
+}
+
+/*  */
+
+/* form design   apply it for all forms */
+
+.formdesign{
+  display:grid;
+  grid-columns-template:1fr;
+  gap:1em;
+  width:50%
+
+}
+.formdesign input{
+  border:none;
+  outline:none;
+  padding-left:1em;
+  color:black;
+  font-size:20px;
+}
+.formdesign select{
+  border:none;
+  outline:none;
+  padding-left:1em;
+  color:black;
+  font-size:20px;
+  /* background:inherit; */
+
+}
+.formdesign button{
+  width:40%;
+  /* border:3px solid inherit; */
+
+}
+.formdesign button:hover{
+  /* background:whitesmoke; */
+  /* color:black;
+  border:2px solid purple; */
+}
+.formdesign input::placeholder{
+  color:rgb(0,0,0,0.4);
+}
+.formdesign input:focus{
+  outline:3px solid purple;
+}
+.formdesign select:focus{
+  outline:3px solid purple;
+}
+.formdesign textarea{
+  resize: none;
+  background:rgba(116,180,203,0.6);
+height:6em;
+color:black;
+font-size:20px;
+
+border:none;
+outline:none;
+padding-left:1em;
+}
+.formdesign textarea:focus{
+  outline:3px solid purple;
+}
+.formdesign textarea::placeholder{
+  color:rgb(0,0,0,0.4);
+}
+
+.title_of_page{
+  font-size:20px;
+  font-weight:bold;
+  color:rgba(255,255,255,0.6) ;
+  margin-bottom:1em;
+}
+.bg-card{
+  background: #124E66;
+}
+.addorder{
+  background:#212A31;
+}
+
+/* form search */
+.form_search{
+  outline:1px solid rgba(255,255,255,0.4);
+  border-radius:30px;
+  overflow:hidden;
+}
+.form_search input{
+ background:inherit;
+ color:whitesmoke;
+ padding-left:1em;
+
+}
+.form_search input:focus{
+    border:none;
+    outline:none;
+ }
+
+ .form_search button{
+
+  background:rgba(0,200,255,0.7);
+  padding:0.2em 1em;
+ transition:all ease-in-out 0.3s;
+ }
+ .form_search button:hover{
+  font-weight:bold;
+  color:whitesmoke;
+ 
+ }
+
+ .icon-search{
+  padding-left:2em;
+display:none;  
+ }
+
+
+.selectFilter{
+  background:rgba(0,200,255,0.5);
+  padding:0.2em 1em;
+ transition:all ease-in-out 0.3s;
+ margin:0;
+ outline:0;
+ /* color:whitesmoke; */
+ border:0;
+}
+
+
+
+
+/*  */
+
+/* pagination */
+
+.pagination{
+  display:flex;
+  gap:0.4em;
+  margin-top:1em;
+}
+.pagination button{
+  /* border:1px solid cyan; */
+  padding:0 0.5em;
+  color:rgba(0,255,255,0.7);
+}
+.pagination button:hover{
+  background:rgba(0,255,255,0.7);
+  color:black;
+}
+
+.activePagination{
+  border:2px solid rgba(0,255,255,0.7);
+
+}
+.service_choice{
+  color:rgba(0,0,0,0.9);
+  color:whitesmoke;
+  padding:0.4em 1.5em;
+}
+
+.main_form_add_order{
+  display:grid;
+  grid-template-columns:3fr 1fr;
+
+  /* gap: 6%; */
+
+}
+.UserMenuRacourcis{
+  background:#5dae8b;
+padding:1em;
+}
+.UserMenuRacourcis a{
+  color:black;
+  font-weight:600;
+
+  padding:0.2em 1em;
+  transition:all ease-in-out 0.4s;
+  /* border-bottom:1px solid black; */
+  /* box-shadow:0 3px 3px gray */
+}
+
+.UserMenuRacourcis a:hover{
+  font-weight:600;
+  color:white;
+  padding-left:3em;
+  background:#466c95;
+}
+
+.addorderAdmin{
+  display:grid;
+}
+
+
+.addorderAdmin select{
+  outline:none;
+  border:none;
+}
